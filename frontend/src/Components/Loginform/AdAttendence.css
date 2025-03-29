@@ -1,0 +1,55 @@
+.adattbg {
+  padding: 20px;
+  color: #fff;
+  background-image: url('../../assets/tablebg2.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size:cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height:100vh;
+  width:100vw;
+}
+
+.adatt-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  overflow: hidden; /* Ensures the border radius applies properly */
+}
+
+.adatt-table th,
+.adatt-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 1); /* White border lines */
+}
+
+.adatt-table th {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.adatt-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.adatt-table thead tr {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.adatt-table .abs-col {
+  width: 30%; /* Reduced width for description column */
+}
+
+
+.error-message {
+  color: red;
+}
+
+::-webkit-scrollbar {
+  display:none;
+}

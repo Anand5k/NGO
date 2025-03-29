@@ -1,0 +1,102 @@
+.lgrbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/usrbg3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper-lgrs {
+    width: 800px; /* Increased width to accommodate labels */
+    /* border: 2px solid rgba(255, 255, 255, 0.2); */
+    color: #fff;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); */
+    border-radius: 20px;
+    padding: 30px 40px 40px 40px;
+    margin-top: 100px; /* Increased margin-top */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+}
+
+.label-input-pair {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.label-input-pair label {
+    color: #fff;
+    font-size: 16px;
+    width: 150px; /* Fixed width for labels */
+    text-align: right; /* Align text to the right */
+    margin-right: 10px;
+}
+
+.label-input-pair input {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 15px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.tt3 {
+    text-align: right;
+    margin-bottom: -20px !important; /* Reduced margin-bottom */
+    color: #000000;
+    font-size: 40px !important;
+    font-weight: 500;
+    display: block;
+}
+
+.tt4 {
+    text-align: right;
+    margin-top: -20px !important;
+    margin-bottom: 10px !important;
+    color: black;
+    font-size: 50px !important;
+    font-weight: 700;
+    display: block;
+}
+
+.tl {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    text-align: right;
+}
+
+.Rememberlg1, .Rememberlg2{
+    margin: -15px 0px 5px ;
+}
+
+.Rememberlg1 button, .Rememberlg2 button {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background: #ffffff;
+    border: 2px solid #000 !important; /* Added black border */
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}

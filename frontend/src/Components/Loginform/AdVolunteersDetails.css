@@ -1,0 +1,103 @@
+.adusrbg {
+  padding: 20px;
+  color: #fff;
+  background-image: url('../../assets/tablebg1.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size:cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height:100vh;
+  width:100vw;
+}
+
+.aduser-table {
+  width: 100%;
+  margin: 20px;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  overflow: hidden; /* Ensures the border radius applies properly */
+  margin-left: 0px;
+  margin-right: 24px;
+}
+
+.aduser-table th,
+.aduser-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 1); /* White border lines */
+}
+
+.aduser-table th {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.aduser-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.aduser-table thead tr {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.aduser-table .description-col {
+  width: 30%; /* Reduced width for description column */
+}
+
+.aduser-table .man_ptd {
+  width: 10%; /* Increased width for date column */
+}
+
+.error-message {
+  color: red;
+}
+
+
+/* Styling for the search container */
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Add padding to the search container */
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent dark background */
+  border-radius: 20px; /* Rounded corners */
+}
+
+/* Styling for the search input */
+.search-input {
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  outline: none;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.596); /* Box shadow for depth */
+  background-color: transparent; /* Transparent background for the input */
+  color: white; /* Text color */
+}
+
+.search-input::placeholder {
+  color: rgb(255, 255, 255); /* Placeholder text color */
+}
+
+.search-input:focus {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Box shadow on focus */
+}
+
+/* Styling for the search icon */
+.search-icon {
+  margin-right: 10px;
+  color: #fff; /* Icon color */
+}
+
+
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display:none;
+}
+

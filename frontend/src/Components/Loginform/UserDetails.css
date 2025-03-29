@@ -1,0 +1,103 @@
+
+
+.usrbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/usrbg3.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper-usr {
+  width: 800px; /* Increased width to accommodate labels */
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  color: #fff;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); */
+  border-radius: 20px;
+  padding: 30px 40px 40px 40px;
+  margin-top: 100px; /* Increased margin-top */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px;
+}
+
+.label-input-pair-u {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); 
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 105%;
+}
+
+.label-input-pair-u label {
+  color: #fff;
+  font-size: 16px;
+  width: 150px; /* Fixed width for labels */
+  text-align: right; /* Align text to the right */
+  margin-right: 10px;
+}
+
+.label-input-pair-u input {
+  width: 250%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 15px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.tt3u {
+  text-align: right;
+  margin-bottom: -5px !important; /* Reduced margin-bottom */
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  display: block;
+}
+
+.tt4u {
+  text-align: right;
+  margin-top: -20px !important;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  display: block;
+}
+
+.tlu {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  text-align: right;
+}
+
+.wrapper-usr .Rememberlg{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-size: 14.5;
+  margin: -15px 0px 15px;  
+}
+.wrapper-usr .Rememberlg2{
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  font-size: 14.5;
+  margin: -15px 0px 15px; 
+   
+}
+
+

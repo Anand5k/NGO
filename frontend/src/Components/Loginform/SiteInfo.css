@@ -1,0 +1,110 @@
+.sibg {
+  padding: 20px;
+  color: #fff;
+  background-image: url('../../assets/tablebg.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size:cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height:100vh;
+  width:100vw;
+}
+
+.si-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  overflow: hidden; /* Ensures the border radius applies properly */
+}
+
+.si-table th,
+.si-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 1); /* White border lines */
+}
+
+.si-table th {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.si-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.si-table thead tr {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.si-table .description-col {
+  width: 30%; /* Reduced width for description column */
+}
+
+.si-table .date-col {
+  width: 10%; /* Increased width for date column */
+}
+
+.error-message {
+  color: red;
+}
+::-webkit-scrollbar {
+  display:none;
+}
+
+#search-input {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5) for transparency */
+  color: rgb(255, 255, 255); /* Text color */
+  border: none; /* Remove border */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  width: 100%; /* Set width to fill container */
+  margin-bottom: 10px; /* Add margin for spacing */
+  margin-top: 20px; /* Add top margin */
+}
+.filter-button button{
+  margin-top: 10px!important;
+  width: 50%!important;
+  height: 45px!important;
+  background: #fff!important;
+  border: none!important;
+  outline: none!important;
+  border-radius: 40px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)!important;
+  cursor: pointer!important;
+  font-size: 16px!important;
+  color: #333!important;
+  font-weight: 700!important;
+}
+.unit-input {
+  position: relative;
+  width: 20%;
+  height: 50px;
+  margin: 30px 0;
+  border-radius: 40px;
+  background:rgba(0, 0, 0, 0.6);
+}
+.unit-input input::placeholder{
+  color: #fff;
+}
+
+.unit-input input
+{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  outline:none;
+  border: 2px solid rgba(255,255,255,.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+
+}
+.update-section{
+  margin-top: 100px;
+}
