@@ -28,7 +28,7 @@ function Adloginform () {
             timer: 2000
           });
 
-          //navigate('/Regres', { state: { email } });
+          navigate('/ngo/info', { state: { email } });
         } catch (error) {
           console.error('Error Admin logging in:', error.response.data.error);
           setError('Invalid credentials. Please try again.');

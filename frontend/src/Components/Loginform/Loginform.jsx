@@ -27,7 +27,7 @@ function Loginform () {
         showConfirmButton: false,
         timer: 2000
       });
-      //history(`/logres`, { state: { email } });
+      history(`/logres`, { state: { email } });
       
     } catch (error) {
       console.error('Error logging in:', error.response.data.error);
