@@ -1,0 +1,96 @@
+/* Background Styling */
+.lnbg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/lnbg2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Container Styling */
+.update-status-container {
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.update-status-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.update-status-container p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Table Styling */
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.status-table th, .status-table td {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  font-size: 16px;
+}
+
+.status-table th {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+.status-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button Styling - Matching Existing Style */
+.status-button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.status-button:hover {
+  background-color: #ddd;
+}
+
+.status-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* No Entries Styling */
+.no-entries {
+  font-size: 18px;
+  color: #f44336;
+  margin-top: 20px;
+}
+
