@@ -1,0 +1,144 @@
+
+
+.wrapper-rg h1 {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.wrapper-rg .input-box {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline:none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 10px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    margin-top:6px;
+}
+
+.wrapper-rg .Remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14.5;
+    margin: -15px 0 15px;   
+}
+
+.wrapper-rg label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.Remember a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.Remember a:hover {
+    text-decoration: underline;
+}
+
+.wrapper-rg button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrapper-rg .reglink{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px ;
+}
+
+.reglink p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper-rg .reglink p a:hover{
+    text-decoration: underline;
+}
+
+
+.rgbg{
+  display:flex;
+  justify-content: right;
+  align-items: center; 
+  background-image: url('../../assets/pbg7.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size:cover;
+  height:100vh;
+  width:100vw;
+} 
+
+input[type="radio"] {
+    width: 14px; 
+    height: 14px; 
+        margin-right: 5px;
+    padding: 0; 
+    vertical-align: middle; 
+  }
+  
+  input[type="radio"] + label {
+    margin-right: 15px;
+  }
+  
+  
+  .input-box.radio-input {
+    margin-bottom: -10px; 
+  }
+
+
+  .wrapper-rg{
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid rgba(255,255,255,.2);
+    color:#fff;
+    box-shadow: 0 0 10px rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-right: 200px;
+    padding-top: 0;
+    position: absolute;
+    top: 90px;
+    padding-bottom: 0px;
+}
+
+.solitude {
+    margin-bottom: -10px; 
+  }
+  

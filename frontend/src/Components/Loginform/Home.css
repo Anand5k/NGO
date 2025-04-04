@@ -1,0 +1,29 @@
+.hmbg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    background-image: url('../../assets/cip1.svg');
+    background-position: -70px 220px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 130% auto;
+    height:100vh;
+    width:100vw;
+    position: absolute;
+  }
+  .hmbg h1 {
+    margin: 950px;
+    margin-top: 700px; 
+}
+.hmbg h1 span {
+    display: block; 
+}
+.tt1{
+    font-size: 100px;
+}
+.tt2{
+    font-size: 40px;
+}
+
+
+
