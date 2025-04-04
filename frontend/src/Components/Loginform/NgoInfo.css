@@ -1,0 +1,59 @@
+.ngo-info-container {
+  width: 420px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ngo-info-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.ngo-details {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.ngo-details p {
+  margin: 10px 0;
+}
+
+.ngo-info-container button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.ngo-info-container button:hover {
+  background: #e0e0e0;
+}
+
+/* Fixing Background Image and Scrolling */
+.lnbg3 {
+  background-image: url('../../assets/lnbg2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
