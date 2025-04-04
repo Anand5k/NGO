@@ -477,10 +477,10 @@ app.post('/ngo/new-application', upload.single("image"), async (req, res) => {
         );
 
         // Fetch NGOs with matching restore column
-        const ngo = await db.query(
-            `SELECT emailid FROM "ngo" WHERE restore = $1`,
-            [type]
-        );
+         const ngo = await db.query(
+          `SELECT emailid FROM "ngo" WHERE restore LIKE '%' || $1 || '%'`,
+          [type]
+      );
 
         if (ngo.rows.length > 0) {
             // Extract NGO emails
