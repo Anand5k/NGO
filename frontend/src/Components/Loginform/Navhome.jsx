@@ -1,0 +1,19 @@
+import './Navbar.css';
+
+const Navhome = () => {
+    return(
+        <header className='header'>
+        <a href="#" className='logo'>Preservia</a>
+        
+        <nav className='navbar'>
+            
+            <a href="/register">REGISTER</a>
+            <a href="/login">USER</a>
+            <a href="/adlogin">NGO</a>
+            <a href="/adminLogin">ADMIN</a>
+            </nav></header>
+
+    )
+
+}
+export default Navhome;

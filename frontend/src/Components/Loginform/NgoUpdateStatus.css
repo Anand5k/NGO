@@ -1,0 +1,145 @@
+/* Background Styling */
+.lnbg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/cipff.svg');
+  background-position: -70px 270px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 130% auto;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+/* Container Styling */
+.update-status-container {
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.update-status-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.update-status-container p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Scrollable Table Container - Applies height to tbody only */
+.status-table-container {
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Table Styling */
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  display: block;
+}
+
+.status-table thead,
+.status-table tbody,
+.status-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.status-table thead {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.status-table tbody {
+  display: block;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.status-table th,
+.status-table td {
+  padding: 15px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Only horizontal lines */
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+
+.status-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Buttons */
+.status-button {
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.status-button:hover {
+  background-color: #ddd;
+}
+
+.status-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Button Group */
+.status-button-group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* No Entries Message */
+.no-entries {
+  font-size: 18px;
+  color: #f44336;
+  margin-top: 20px;
+}
+
+.status-table tbody {
+  display: block;
+  max-height: 250px;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+.status-table tbody::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}

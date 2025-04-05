@@ -1,0 +1,82 @@
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/cipff.svg');
+  background-position: -70px 270px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 130% auto;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.site-admin-container {
+  width: 420px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  color: #fff;
+}
+
+.site-admin-container h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.site-admin-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-admin-container input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.site-admin-container input::placeholder {
+  color: #fff;
+}
+
+.site-admin-container button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.site-admin-container button:hover {
+  background-color: #e0e0e0;
+}
+
+.site-admin-container .success {
+  color: #4caf50;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.site-admin-container .error {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,179 @@
+.ngobg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/cipff.svg');
+    background-position: -70px 270px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 130% auto;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+  }
+  
+  .ngo-wrapper {
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .scroll-table {
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 20px;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+  }
+  
+  .scroll-table::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+  .scroll-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .scroll-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+  }
+  
+  .scroll-table thead {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+  }
+  
+  .scroll-table thead th {
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  tbody tr {
+    background: none; /* No background on rows */
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  button:disabled {
+    background-color: #f0f0f0;
+    color: #888;
+    cursor: not-allowed;
+  }
+  
+  button.danger {
+    border: 2px solid #ff4d4d;
+    color: #ff4d4d;
+    background-color: white;
+    margin-left: 10px;
+  }
+  
+  button.danger:hover {
+    background-color: #ffe5e5;
+  }
+  
+  .selected-image {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+  .scroll-table {
+    margin-top: 20px;
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  /* Hide scrollbar */
+  .scroll-table::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
+  .scroll-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Fix header */
+  .scroll-table thead {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: #333; /* solid background for header */
+    z-index: 2;
+    color: white;
+  }
+  
+  .scroll-table tbody {
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  .scroll-table tbody::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+  
+  
+  /* Columns fixed width for perfect alignment */
+  .scroll-table th,
+  .scroll-table td {
+    width: 100px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .scroll-table td input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+  
+  .action-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* spacing between buttons */
+    flex-wrap: wrap;
+  }
+  
